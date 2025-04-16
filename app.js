@@ -2,7 +2,8 @@ const secretNumber= Math.floor (Math.random()*10)+1;
 const guessInput= document.getElementById ("guessInput");
 const guessBtn= document.getElementById ("guessBtn");
 const guessResult= document.getElementById ("guessResult");
-
+const resetBtn = document.getElementById("resetBtn");
+const guessCountDisplay = document.getElementById("guessCount");
 
 
 guessBtn.addEventListener ("click", function () {
